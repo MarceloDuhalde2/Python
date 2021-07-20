@@ -1,5 +1,5 @@
 # Python
-Portfolio crypto: Programa desarrollado en python y php, que permite dar seguimiento a cryptoactivos, abrir, agregar, disminuir y cerrar posiciones, actualizacion de precios en intervalos de 15 minutos, estadisticas y seguimiento de un portafolio.
+Portfolio crypto: Programa desarrollado en python y php, que permite dar seguimiento a cryptoactivos, abrir, agregar, disminuir y cerrar posiciones (sin conexion a exchanges), crear billeteras, actualizacion de precios en intervalos de 15 minutos, estadisticas y seguimiento de un portafolio.
 
 - Se requiere rellenar datos de chat_id y telegram token en el archivo library/config.py 
 - Los archivos update_symbols.py y delete_symbols.py, se debe ejecutar como servicio una vez cada 15 minutos, para actualizar datos del portafolio.
