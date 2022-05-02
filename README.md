@@ -1,12 +1,12 @@
-# Python
-Portfolio crypto: Programa desarrollado en python y php, que permite dar seguimiento a cryptoactivos, abrir, agregar, disminuir y cerrar posiciones (sin conexion a exchanges), crear billeteras, actualizacion de precios en intervalos de 15 minutos, estadisticas y seguimiento de un portafolio.
+#Python
+Portfolio crypto: Program developed in python and php, which allows monitoring crypto assets, opening, adding, decreasing and closing positions (without connection to exchanges), creating wallets, updating prices at 15-minute intervals, statistics and monitoring of a portfolio .
 
-- Se requiere rellenar datos de chat_id y telegram token en el archivo library/config.py 
-- Los archivos update_symbols.py y delete_symbols.py, se debe ejecutar como servicio una vez cada 15 minutos, para actualizar datos del portafolio.
-- El archivo portfolio_crypto.sql, tiene la base de datos mysql, que debe ser importada en el servidor, y realizar las configuraciones tanto en library/config.py como en db_config.php
+- It is required to fill chat_id and telegram token data in the library/config.py file
+- The update_symbols.py and delete_symbols.py files must be run as a service once every 15 minutes to update portfolio data.
+- The portfolio_crypto.sql file has the mysql database, which must be imported into the server, and make the settings both in library/config.py and in db_config.php
 
-Este proyecto se realizó con:
-- Python 3.8.10
-- PHP 7.0
+This project was carried out with:
+-Python 3.8.10
+-PHP 7.0
 - mysql 8.0
-- Bootstrap 3.3.7
+-Bootstrap 3.3.7
